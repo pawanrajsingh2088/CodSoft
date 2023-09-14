@@ -1,0 +1,29 @@
+@media only screen and (max-width:1100px){
+    .calc{
+        width: 45vw;
+        margin-left: 20vw;
+    }
+    .test{
+        width: 10vw;
+    }
+    #space{
+        margin-left: 20vw;
+        width: 48vw;
+    }
+}
+@media only screen and (max-width:550px){
+    .calc{
+        width: 70vw;
+        margin-left: 10vw;
+    }
+    .test{
+        width: 18vw;
+    }
+    #space{
+        margin-left: 10vw;
+        width: 74vw;
+    }
+    .heading{
+        font-size: 30px;
+    }
+}

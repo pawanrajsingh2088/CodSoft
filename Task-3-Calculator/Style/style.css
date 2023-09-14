@@ -1,0 +1,68 @@
+.heading{
+    font-size: 50px;
+    text-align: center;
+    color: red;
+    font-weight: 900;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+#space{
+    margin-left: 29vw;
+    height: 10vh;
+    width: 37vw;
+    border: 5px solid black;
+    border-radius: 20px;
+    text-align: right;
+    color:blue;
+    font-size: 30px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-weight: 800;
+    overflow-x: scroll;
+}
+#area{
+    width: 35vw;
+    height: 8vh;
+    text-align: right;
+    font-style: italic;
+    font-size: 25px;
+    color:tomato;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+.calc{
+    margin-left: 29vw;
+    margin-top: 10px;
+    background-color:paleturquoise;
+    height: 48vh;
+    width: 35vw;
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 20px;
+    border-style: none;
+    align-self: center;
+}
+.row{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.test{
+    height: 8vh;
+    width: 8vw;
+    margin-right: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 5px solid black;
+    border-radius: 5px;
+    border-style: none;
+    color:yellow;
+    background-color:firebrick;
+}
+.test:hover{
+    background-color: aqua;
+    color:red;
+}
