@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Fuggles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    height: 15vh;
+    align-items: center;
+    background-color: aqua;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.head{
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+}
+.head h1{
+    font-family: 'Caveat', cursive;
+    font-style: italic;
+    color: white;
+}
+.head img{
+    height: 13vh;
+    border-radius: 100%;
+}
+.tag{
+    align-items: center;
+}
+.tag a{
+    margin-right: 3vw;
+    text-decoration: none;
+    font-size: 3vh;
+    font-weight: 600;
+    font-family: 'Dancing Script', cursive;
+    color: chocolate;
+}
+.intro{
+    background-image: url("../Assets/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.intro img{
+    height: 40vh;
+    border-radius: 50%;
+}
+.intro p{
+    width: 60vw;
+    font-size: 4vh;
+    font-weight: 600;
+    color: black;
+    font-family:cursive;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+.skills h1{
+    font-size: 7vh;
+    color: red;
+    text-decoration: underline;
+}
+.skills_part{
+    width: 50vw;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.skills_part img{
+    width: 5vw;
+    animation-name: change; 
+}
+.skills_part img:hover{
+   opacity: 1.5;
+   scale: 1.2;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+}
+.project h1{
+    font-size: 7vh;
+    color: red;
+    text-decoration: underline;
+    margin-bottom: 5vh;
+}
+.table, .calculator, .bmi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding: 3vh;
+    width: 25vw;
+    height: 50vh;
+    border-radius: 50px;
+}
+.table h3, .calculator h3, .bmi h3{
+    font-size: 5vh;
+    color: blue;
+    margin-bottom: 4vh;
+    text-decoration: none;
+}
+.table img, .calculator img, .bmi img{
+    width: 20vw;
+    height: 40vh;
+    border-radius: 50px;
+}
+.project_part{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2vw;
+}
+.resume{
+    margin-top: 7vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.resume_data, .contact{
+    width: 20vw;
+    height: 10vh;
+    font-size: 2.5vh;
+    font-weight: 700;
+    color: blanchedalmond;
+    background-color: brown;
+    border-radius: 50px;
+}
+.contactus{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25vw;
+    align-items: center;
+    gap: 2vh;
+    border: 3px solid black;
+    width: 50vw;
+    height: 70vh;
+    border-radius: 50px;
+}
+.contactus h1{
+    font-size: 7vh;
+    text-decoration: underline;
+    font-style: italic;
+}
+.contactus h3{
+    font-size: 3vh;
+}
+.contactus input{
+    width: 30vw;
+    height: 6vh;
+    font-weight: 600;
+    border-radius: 10px;
+    color: red;
+    padding-left: 10px;
+}
+.contactus textarea{
+    width: 35vw;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.submit{
+    width: 10vw;
+    height: 7vh;
+    font-size: 3vh;
+    font-weight: 700;
+    margin-bottom: 2vh;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.footer{
+    display: flex;
+    justify-content:center;
+    background-color: chartreuse;
+    align-items: center;
+    margin-top: 5vh;
+}
